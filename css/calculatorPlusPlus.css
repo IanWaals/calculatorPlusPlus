@@ -1,0 +1,203 @@
+/*css*/
+/*for all body components except the one on the contact page*/
+body {
+    background: #FFF2D8;
+    color: white;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+/*for the body component on the contact page*/
+.contact {
+    background: #ffffdd;
+    color: white;
+    margin: 0;
+    font-family: 'Courier New', monospace;
+}
+/*for all h1 tags (only used in the heading components)*/
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+}
+/*for putting the thank you div from the calculator page in the center and giving them some color*/
+.center {
+    background-color: #4b4237;
+    width: 800px;
+    padding: 50px;
+    margin: auto;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*for the calculator*/
+.calculator {
+    background-color: #4b4237;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*for the result divs on the calculator, conversion and currency pages*/
+.result {
+    background-color: #fff2d8;
+    width: 350px;
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+    color: black;
+}
+/*to give the heading component a color*/
+.header {
+    background: #736b60;
+}
+/*to put the paragraph component from the heading in the center*/
+p {
+    text-align: center;
+}
+/*to give the top navigation bar some color and to make sure the text does not spill out*/
+.topnav {
+    background-color: #fff2d8;
+    overflow: hidden;
+}
+/*make the navigation bar links appear as normal text*/
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/*give the top nav components some different properties when hovering over them*/
+.topnav a:hover {
+    background-color: #736b60;
+    color: white;
+}
+/*to give the navigation component of the current page some different properties*/
+.topnav a.active {
+    background-color: #736b60;
+    color: white;
+}
+/*for the introduction div on the index page*/
+.HomepageTxt {
+    background-color: #4b4237;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*for the button referring you to the history page*/
+.startButton {
+    background-color: #4b4237;
+    color: white;
+    text-decoration: none;
+    width: 460px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*the div with the history*/
+.history {
+    background-color: #4b4237;
+    width: 600px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*all input type submit buttons*/
+.enterButton {
+    background-color: #fff2d8;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*all input type number fields*/
+.number {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+/*all dropdown boxes*/
+.select {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+}
+/*for the ordered list with my favourite movies*/
+.TopMovies {
+    background-color: #4b4237;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*for the form on the contact page*/
+.contactForm {
+    background-color: #4b4237;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*for the input type text fields on the contact page*/
+.formInput {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+}
+/*for the result div on the contact page*/
+.formResult {
+    color: black;
+    background-color: #ffffdd;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*to give all images a round corner*/
+img {
+    border-radius: 30px;
+}
+/*the combination div for the projects page*/
+.projectsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+/*the properties of all three projects divs*/
+.projects1, .projects2, .projects3 {
+    background-color: #4b4237;
+    width: 320px;
+    padding: 50px;
+    margin: 30px;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
+/*the form div for the currency calcultor*/
+.currency{
+    background-color: #4b4237;
+    width: 400px;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    border-radius: 30px;
+    outline: solid 5px #736b60;
+}
